@@ -280,7 +280,7 @@ setInterval(createtime, 250);
       path: isShuoshuo ? path : (option && option.path) || path
     })
 
-    
+    GLOBAL_CONFIG_SITE.pageType === 'post' && getCount()
 
     isShuoshuo && (window.shuoshuoComment.destroyTwikoo = () => {
       if (el.children.length) {
