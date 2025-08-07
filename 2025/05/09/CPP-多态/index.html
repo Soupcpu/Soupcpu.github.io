@@ -182,13 +182,13 @@
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">24</span>!</span><br></pre></td></tr></table></figure>
 <p>我们可以看到，我们在父类中定义了一个虚函数，在子类中也定义了一个函数，但是我们在主函数中调用的是子类的函数，这是因为在编译阶段，编译器会根据函数的类型来确定函数的地址，而不是根据对象的类型来确定函数的地址。</p>
 <p>这就是虚函数在Cpp中的作用，能让你的基类更加的通用，只需修改不同子类，让你的代码更加的灵活。</p>
-<h2 id="多态的原理"><a href="#多态的原理" class="headerlink" title="多态的原理"></a>多态的原理</h2><p><font size=5>若不使用多态，运行顺序如下图</font></p>
+<h2 id="多态的原理"><a href="#多态的原理" class="headerlink" title="多态的原理"></a>多态的原理</h2><p><font size="5">若不使用多态，运行顺序如下图</font></p>
 <p><img src="https://free.picui.cn/free/2025/05/10/681ec9ff6a28d.png" alt="微信图片_20250510113654.png"></p>
 <blockquote>
 <p>Cat继承了Animal里的public Speak函数，但由于Speak函数并不是虚函数，即使子类重写基类，但仍然是按照基类的Speak函数来执行。</p>
 </blockquote>
-<br/>
-<font size=5>若使用多态，运行顺序如下图</font>
+<br>
+<font size="5">若使用多态，运行顺序如下图</font>
 
 <p><img src="https://free.picui.cn/free/2025/05/10/681ecb8691b8d.png" alt="微信图片_20250510114348.png"></p>
 <blockquote>
