@@ -9,30 +9,8 @@
     <atom:link href="https://baiyb.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Tue, 14 Oct 2025 12:09:34 GMT</pubDate>
+    <pubDate>Thu, 25 Sep 2025 08:03:28 GMT</pubDate>
     <generator>http://hexo.io/</generator>
-    
-    <item>
-      <title>计算机网络</title>
-      <link>https://baiyb.top/2025/10/14/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</link>
-      <guid>https://baiyb.top/2025/10/14/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</guid>
-      <pubDate>Tue, 14 Oct 2025 11:47:09 GMT</pubDate>
-      
-        
-        
-      <description>&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot; cla</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>计算机网络：由若干<span style="color: red;"><strong>节点</strong></span>和链接这些节点的<span style="color: red;"><strong>链路</strong></span>组成</p><ul><li>节点：计算机、集线器、交换机、路由器等</li><li>链路：有线链路、无线连路</li></ul><p>互连网(internet)：<strong>将多个计算机网络通过路由器连接起来的网络</strong><br><br>互联网(Internet)：因特网，由各大ISP和国际机构构建的，<strong>覆盖全球范围的互连网</strong></p>]]></content:encoded>
-      
-      
-      
-      
-      <comments>https://baiyb.top/2025/10/14/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/#disqus_thread</comments>
-      
-    </item>
     
     <item>
       <title>基于Hexo框架搭建个人博客</title>
